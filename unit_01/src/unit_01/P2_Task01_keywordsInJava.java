@@ -9,6 +9,7 @@ int new()
 System.out.println();
 return 0;
 }
+	
 int a=10;
 a=11;
 
