@@ -18,7 +18,6 @@ multi(1,2);
 Calculator obj=new Calculator();
 System.out.println(obj.add(1, 2));
 System.out.println(obj.a);
-
 }
 
 static int add(int a,int b) {
