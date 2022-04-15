@@ -47,6 +47,5 @@ class ABC3{
 		
 		return a;
 		
-	}
-	
+	}	
 }
