@@ -29,8 +29,7 @@ public class P4_Task01_ControlAndConditonalStatementsInJava {
 		}
 }
 
-class Statements
-{
+class Statements{
   void DecisionMakingStatements()
   {
 	  int x=10;
