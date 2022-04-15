@@ -32,7 +32,6 @@ public class P6_Task03_StringBufferClassInJava {
 		StringBuffer sb4=new StringBuffer("Hello");
 		sb4.delete(1, 3);
 		System.out.println(sb4); // Prints Hlo
-		
-		
+			
 	}
 }
