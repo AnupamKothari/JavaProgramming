@@ -22,7 +22,7 @@ class int()
 {
 void Display()
 {
-System.out.println("Another Class..1!");	
+System.out.println("Another Class...1!");	
 }
 }
 
