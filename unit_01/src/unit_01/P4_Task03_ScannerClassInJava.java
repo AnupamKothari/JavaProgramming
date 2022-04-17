@@ -9,7 +9,7 @@ import java.util.Scanner;
  * next()		  Read next token from the input entered by the user
  * 
  * nextBoolean()  Reads a boolean value from the user
- * nectByte()     Reads a byte from the user
+ * nextByte()     Reads a byte from the user
  * nextDouble()	  Reads a double value from the user
  * nextFloat()	  Reads a float value from the user
  * nextInt()	  Reads a integer value from the user
