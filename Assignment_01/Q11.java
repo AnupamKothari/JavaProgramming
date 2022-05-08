@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Q11 {
 	public static void main(String[] args) {
-		Arthmetic obj=new Arthmetic();
+		Solve obj=new Solve();
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers:");
 		int a=sc.nextInt();
@@ -17,7 +17,7 @@ public class Q11 {
 
 }
 
-class Arthmetic{
+class Solve{
 	
 	float sub(float a,float b) {
 		if(a<b)
