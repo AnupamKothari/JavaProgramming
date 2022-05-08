@@ -6,7 +6,7 @@ public class Q5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Employee obj[] = new Employee[8];
-		System.out.println("Enter details of employees:");
+		System.out.println("Enter details of employees as name age department and salary:");
 		for (int i = 0; i < 8; i++) {
 			System.out.println("Enter details of employee "+(i + 1)+":");
 			obj[i] = new Employee(sc.next(), sc.nextInt(), sc.next().charAt(0), sc.nextLong());
@@ -19,8 +19,40 @@ public class Q5 {
 			}
 
 		}
-			obj[i].display();
+			
 		}
+		for(int i=0;i<8;i++)
+		{
+				if(obj[i].department=='A' )
+				{	obj[i].display();
+					break;
+				}
+		}
+		
+		for(int i=0;i<8;i++)
+		{
+			if(obj[i].department=='B' )
+			{	obj[i].display();
+				break;
+			}
+		}
+		
+		for(int i=0;i<8;i++)
+		{
+			if(obj[i].department=='C' )
+			{	obj[i].display();
+				break;
+			}
+		}
+		
+		for(int i=0;i<8;i++)
+		{
+			if(obj[i].department=='D' )
+			{	obj[i].display();
+				break;
+			}
+		}
+		
 	}
 
 }
@@ -29,28 +61,26 @@ class Employee {
 	String name;
 	int age;
 	char department;
-	long salary=0;
-
+   long salary=0;
 	Employee(String a, int b, char c, long d) {
 		name = a;
 		age = b;
 		department = c;
-		salary = d;
+		if(d>30000)
+		    salary = 25000;
+		else
+			salary=d;
 	}
 
 	void calculate(Employee obj) {
 
-		if(salary+obj.salary>30000)
-		{
-			salary+=25000;
-		}
-		else
 			salary+=obj.salary;
+		
 	}
 	
 	void display()
 	{
-		System.out.println("Total salary for to be paid to department " + department + "is " + salary);
+		System.out.println("Total salary to be paid to department " + department + " is " + salary);
 	}
 
 }
