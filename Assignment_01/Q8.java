@@ -29,7 +29,7 @@ class Delete{
 	void remove(int arr[],int index,int n)
 	{
 		int i;
-		for( i=index;i<n;i++)
+		for( i=index;i<n-1;i++)
 		{
 			arr[i]=arr[i+1];
 		}
