@@ -4,9 +4,9 @@ import java.util.Scanner;
 /* Exception is something that comes during program execution, because of programmers' mistake, that 
  disrupts the flow of the program execution.. it is not an error
 Some common exceptions are - 1. Arithmetic Exception
-											2. Input Mismatch Exception
-											3. Index out of bound Exception
-											4.	Null Pointer Exception
+			     2. Input Mismatch Exception
+			     3. Index out of bound Exception
+		             4.	Null Pointer Exception
 										
  Using try and catch block, one can handle these exceptions but remember only exception !!
  
