@@ -42,7 +42,6 @@ public class SetUsingLinkedHashset {
 		System.out.print("Set output after null is removed!");
 		System.out.println(hash_Set);
 
-
 	}
 
 }
